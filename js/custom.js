@@ -22,7 +22,7 @@ $(".video-container").fitVids();
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://webdesign7.us6.list-manage.com/subscribe/post?u=9445a2e155b82208d73433060&amp;id=16dc80e353" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
+    url: "http://techstalks.us10.list-manage.com/subscribe/post?u=06ff4f1ad9c0a6184b0cf8f25&amp;id=0396fa3f19" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
 });
 
 function mailchimpCallback(resp) {
@@ -211,6 +211,47 @@ $(document).ready(function () {
     });
 
 });
+
+
+/* =================================
+===  OWL CROUSEL               ====
+=================================== */
+$(document).ready(function () {
+
+    $("#feedbacks").owlCarousel({
+
+        navigation: false, // Show next and prev buttons
+        slideSpeed: 800,
+        paginationSpeed: 400,
+        autoPlay: 5000,
+        singleItem: true
+    });
+
+    var owl = $("#screenshots1");
+
+    owl.owlCarousel({
+        items: 3, //10 items above 1000px browser width
+        itemsDesktop: [1000, 4], //5 items between 1000px and 901px
+        itemsDesktopSmall: [900, 2], // betweem 900px and 601px
+        itemsTablet: [600, 1], //2 items between 600 and 0
+        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+    });
+
+
+});
+
+
+/* =================================
+===  Nivo Lightbox              ====
+=================================== */
+$(document).ready(function () {
+
+    $('#screenshots1 a').nivoLightbox({
+        effect: 'fadeScale',
+    });
+
+});
+
 
 
 /* =================================

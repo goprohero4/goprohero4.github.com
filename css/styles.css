@@ -1,5 +1,5 @@
 /* =======================================================================
-Kane - Responsive App Landing Page 1.7
+Kane - Responsive App Landing Page
 ======================================================================= */
 
 /* --------------------------------------
@@ -104,13 +104,14 @@ li {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(../images/loading.gif);
+    background-image: url(http://templateocean.com/premium/template/kane/files/images/loading.gif);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
             background-size: cover;
     margin: -20px 0 0 -20px;
 }
+
 
 /*---------------------------------------
    Typography                
@@ -274,6 +275,7 @@ h5 {
    SECTION:  HOME                 
 -----------------------------------------*/
 
+
 header .color-overlay {
     min-height: 900px;
 }
@@ -326,9 +328,28 @@ header .only-logo .navbar .navbar-header {
 
 /* INTRO */
 
+header .home-contents {
+    margin-top: 5%;
+}
+
 header .intro-section {
+    text-align: left;
+}
+
+header .intro-section .standard-button {
+    margin: 0;
+}
+
+header .phone-image {
+    max-width: 1500px;
+	max-height: 1497px;
     margin: auto;
-    padding-top: 15%;
+    margin-bottom: 50px;
+
+}
+
+header .phone-image img {
+    width: 100%;
 }
 
 header .intro-section .intro {
@@ -404,6 +425,7 @@ header .intro-section .buttons {
     max-width: 250px;
     margin: auto;
     margin-bottom: 80px;
+	margin-top: 100px;
 }
 
 .features .phone-image img {
@@ -429,6 +451,7 @@ header .intro-section .buttons {
     max-width: 350px;
     margin: auto;
     margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .app-brief .phone-image img {
@@ -488,6 +511,7 @@ object {
 /*---------------------------------------
    SECTION:  TESTIMONIALS                 
 -----------------------------------------*/
+
 .testimonials {
     color: #ffffff;
 }
@@ -574,7 +598,6 @@ object {
 }
 
 
-
 /*---------------------------------------
    SECTION:  SCREENSHOTS 
 -----------------------------------------*/
@@ -595,6 +618,30 @@ object {
 }
 
 .screenshots .shot img {
+    border-radius: 4px;
+    width: 100%;
+}
+
+/*---------------------------------------
+   SECTION:  SCREENSHOTS1 
+-----------------------------------------*/
+
+.screenshots1 {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.screenshots1 .shot1 {
+    background: #232323;
+    padding: 10px;
+    margin: 13px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: block;
+}
+
+.screenshots1 .shot1 img {
     border-radius: 4px;
     width: 100%;
 }
@@ -700,11 +747,13 @@ object {
     margin-bottom: 30px;
 }
 
+
 /*---------------------------------------
    SECTION:  FOOTER                
 -----------------------------------------*/
 footer {
      background: #222222;
+
 }
 
 footer .contact-box {
@@ -726,8 +775,8 @@ footer .contact-box .contact-button {
             box-shadow: 0px 0px 0px 3px #232323;
     -webkit-backface-visibility: hidden;
     -webkit-background-clip: padding-box;
-    -moz-background-clip: padding;
-    background-clip: padding-box;
+           -moz-background-clip: padding;
+            background-clip: padding-box;
 }
 
 footer .contact-box .contact-button:hover {
@@ -787,5 +836,21 @@ footer .social-icons li a {
 footer .copyright {
     color: #808080;
     padding-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.hero4{
+
+font-family: 'Roboto', sans-serif;
+font-size: 6em;
+color: #008ed6;
+}
+
+
+.p3 {
+font-family: 'Roboto', sans-serif;
+color: #fff;
+text-align: left;
+padding-left: 50px;
+font-size: 3em;
 }
