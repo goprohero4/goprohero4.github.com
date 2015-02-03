@@ -1550,6 +1550,9 @@
  
   <script src="tab-js/jquery.js"></script>
 	<script src="tab-js/bootstrap.min.js"></script>
+	
+	<script src="tab-js/price-range.js"></script>
+    <script src="tab-js/jquery.prettyPhoto.js"></script>
     <script src="tab-js/main.js"></script>
 
 
