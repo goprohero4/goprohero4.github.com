@@ -1,5 +1,5 @@
 /* =======================================================================
-Kane - Responsive App Landing Page
+Kane - Responsive App Landing Page 1.7
 ======================================================================= */
 
 /* --------------------------------------
@@ -104,7 +104,7 @@ li {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(http://templateocean.com/premium/template/kane/files/images/loading.gif);
+    background-image: url(../images/loading.gif);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -275,8 +275,7 @@ h5 {
    SECTION:  HOME                 
 -----------------------------------------*/
 
-
-header .color-overlay {
+header .solid-color {
     min-height: 900px;
 }
 
@@ -328,28 +327,9 @@ header .only-logo .navbar .navbar-header {
 
 /* INTRO */
 
-header .home-contents {
-    margin-top: 5%;
-}
-
 header .intro-section {
-    text-align: left;
-}
-
-header .intro-section .standard-button {
-    margin: 0;
-}
-
-header .phone-image {
-    max-width: 1500px;
-	max-height: 1497px;
     margin: auto;
-    margin-bottom: 50px;
-
-}
-
-header .phone-image img {
-    width: 100%;
+    padding-top: 15%;
 }
 
 header .intro-section .intro {
@@ -440,7 +420,6 @@ header .intro-section .buttons {
 .app-brief {
     padding-top: 110px;
     padding-bottom: 60px;
-    background: #222222;
 }
 
 .app-brief h2 {
@@ -486,6 +465,7 @@ header .intro-section .buttons {
 /* VIDEO */
 
 video {
+    max-width: 100%;
     height: auto;
 }
 
@@ -505,18 +485,18 @@ object {
 
 .video {
     background: transparent !important;
+
 }
 
 
 /*---------------------------------------
    SECTION:  TESTIMONIALS                 
 -----------------------------------------*/
-
 .testimonials {
     color: #ffffff;
 }
 
-.testimonials .color-overlay {
+.testimonials .solid-color {
     padding-top: 110px;
     padding-bottom: 110px;
 }
@@ -596,6 +576,7 @@ object {
 .services .single-service h3 {
     margin-top: 20px;
 }
+
 
 
 /*---------------------------------------
@@ -709,7 +690,7 @@ object {
     color: #ffffff;
 }
 
-.download .color-overlay {
+.download .solid-color {
     padding-top: 110px;
     padding-bottom: 70px;
 }
@@ -751,10 +732,6 @@ object {
 /*---------------------------------------
    SECTION:  FOOTER                
 -----------------------------------------*/
-footer {
-     background: #222222;
-
-}
 
 footer .contact-box {
     margin-bottom: 78px;
@@ -775,8 +752,8 @@ footer .contact-box .contact-button {
             box-shadow: 0px 0px 0px 3px #232323;
     -webkit-backface-visibility: hidden;
     -webkit-background-clip: padding-box;
-           -moz-background-clip: padding;
-            background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
 }
 
 footer .contact-box .contact-button:hover {
@@ -836,19 +813,16 @@ footer .social-icons li a {
 footer .copyright {
     color: #808080;
     padding-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .hero4{
+font-family: 'Roboto', sans-serif;
 font-size: 6em;
 color: #008ed6;
 }
 
-
-.p3 {
-font-family: 'Roboto', sans-serif;
-color: #fff;
-text-align: left;
-padding-left: 50px;
-font-size: 3em;
+.silver {
+position: relative;
+right: 82px;
 }

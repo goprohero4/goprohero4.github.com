@@ -58,7 +58,6 @@ if (matchMedia('(max-width: 480px)').matches) {
 }
 
 
-
 /* NAVIGATION VISIBLE ON SCROLL */
 
 $(document).ready(function () {
@@ -98,41 +97,8 @@ jQuery(function( $ ){
 			});
 		});
 
+
 /* =================================
-===  VIDEO BACKGROUND           ====
-=================================== */
-if (matchMedia('(min-width: 640px)').matches) {
-   
-   $(document).ready(function() {
-    var videobackground = new $.backgroundVideo($('body'), {
-      "align": "centerXY",
-      "width": 1280,
-      "height": 720,
-      "path": "video/",
-      "filename": "video",
-      "types": ["mp4","ogg","webm"]
-    });
-  });
-
-}
-
-
- /* =================================
-===  FULL SCREEN HEADER         ====
-=================================== */
-function alturaMaxima() {
-  var altura = $(window).height();
-  $(".full-screen").css('min-height',altura); 
-  
-}
-
-$(document).ready(function() {
-  alturaMaxima();
-  $(window).bind('resize', alturaMaxima);
-});
-
-
- /* =================================
 ===  FULL SCREEN HEADER         ====
 =================================== */
 function alturaMaxima() {
@@ -202,18 +168,6 @@ $(document).ready(function () {
 
 
 /* =================================
-===  Nivo Lightbox              ====
-=================================== */
-$(document).ready(function () {
-
-    $('#screenshots a').nivoLightbox({
-        effect: 'fadeScale',
-    });
-
-});
-
-
-/* =================================
 ===  OWL CROUSEL               ====
 =================================== */
 $(document).ready(function () {
@@ -253,6 +207,17 @@ $(document).ready(function () {
 });
 
 
+/* =================================
+===  Nivo Lightbox              ====
+=================================== */
+$(document).ready(function () {
+
+    $('#screenshots a').nivoLightbox({
+        effect: 'fadeScale',
+    });
+
+});
+
 
 /* =================================
 ===  SUBSCRIPTION FORM          ====
@@ -284,6 +249,7 @@ $("#subscribe").submit(function (e) {
 
     return false;
 });
+
 
 
 
@@ -332,13 +298,6 @@ $('.expand-form').simpleexpand({
 });
 
 
-
-/* =================================
-===  STELLAR                    ====
-=================================== */
-$(window).stellar({ 
-horizontalScrolling: false 
-});
 
 
 /* =================================

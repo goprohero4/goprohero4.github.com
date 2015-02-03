@@ -3,34 +3,6 @@
 RESPONSIVE FIXES
 =========================================
 -----------------------------------------*/
-
-/* BACKGROUND IMAGES FOR MOBILE*/
-
-@media (max-width: 640px) {
-    
-    header {
-    background: url('../images/bg-1.jpg') no-repeat center;
-    -webkit-background-size: cover;
-            background-size: cover;
-    }
-    
-    .testimonials {
-    background: url('../images/bg-2.jpg') no-repeat center;
-    -webkit-background-size: cover;
-            background-size: cover;
-    }
-    
-    .download {
-    background: url('../images/bg-3.jpg') no-repeat center;
-    -webkit-background-size: cover;
-            background-size: cover;
-    
-    }
-    
-} 
- 
-
-/* OTHER FIXES */ 
 @media (max-width: 1024px) {
 
     .animated {
@@ -46,7 +18,7 @@ RESPONSIVE FIXES
         line-height: 26px;
     }
 
-    header .color-overlay {
+    header .solid-color {
         min-height: 800px;
     }
 
@@ -67,7 +39,7 @@ RESPONSIVE FIXES
         font-size: 90%;
     }
 
-    header .color-overlay {
+    header .solid-color {
         min-height: 780px;
     }
 
@@ -118,7 +90,7 @@ RESPONSIVE FIXES
         line-height: 26px;
     }
 
-    header .color-overlay {
+    header .solid-color {
         min-height: 580px;
     }
 
@@ -176,7 +148,7 @@ RESPONSIVE FIXES
         font-size: 65%;
     }
 
-    header .color-overlay {
+    header .solid-color {
         min-height: 480px;
     }
 

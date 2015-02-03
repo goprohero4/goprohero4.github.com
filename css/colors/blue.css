@@ -8,13 +8,12 @@ DEEP COLOR CODE: #005885
 =========================================
 ----------------------------------------- */
 
-.color-overlay {
-     background: rgba(0, 0, 0, 0.45); 
-   /* background: url(../patterns/06.png); */
+.solid-color {
+    background: #000;
 }
 
 .standard-button {
-    background: #008ed6;
+    background: #005885;
 }
 
 .standard-button2 {
@@ -32,6 +31,7 @@ DEEP COLOR CODE: #005885
     background: #005885;
     border-color: inherit;
 }
+
 
 .colored-line,
 .colored-line-left {
